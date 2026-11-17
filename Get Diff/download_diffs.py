@@ -13,11 +13,11 @@ from urllib3.util.retry import Retry
 
 # 修改为你的 Excel 路径
 EXCEL_PATH = Path(
-    r"Code Reviewer Recommendation\DataSet\Data of Code Snippets in Code Review.xlsx"
+    r"./DataSet/Data of Code Snippets in Code Review.xlsx"
 )
 
 # diff 和结果清单的保存位置
-OUTPUT_DIR = Path(r"Code Reviewer Recommendation\diff_result")
+OUTPUT_DIR = Path(r"./diff_result")
 DIFF_DIR = OUTPUT_DIR / "diffs"
 MANIFEST_PATH = OUTPUT_DIR / "manifest.csv"
 
